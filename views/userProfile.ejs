@@ -7,19 +7,19 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
   integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
   <link rel='stylesheet' href='/stylesheets/style.css' />
-  <title>Phone2</title>
+  <title>Phone perfil</title>
 </head>
 <body>
   
-        <h1 class="text-center">Perfil Usuario</h1>
-        <div class="jumbotron">
+        <h1 class="text-center py-5">Perfil Usuario</h1>
+        <div class="jumbotron">  
           <% result.forEach( function(user){ %>  
-          <p class="lead"><%- user.name %></p>
-          <p class="lead"><%- user.last_name %></p>
-          <p><%- user.model %></p>
-          <p><%- user.color %></p>
+          <p class="lead ">Nombre: <%- user.name %></p>
+          <p class="lead">Apellido: <%- user.last_name %></p>
+          <p>Modelo: <%- user.model %></p>
+          <p>Color: <%- user.color %></p>
           <p class="lead">
-            <a class="btn btn-primary btn-lg" href="/users/Listado" role="button">Atras</a>
+            <a class="btn btn-primary button_perfil btn-lg" href="/users/Listado" role="button">Atras</a>
           </p>
           <% }); %> 
         </div>
