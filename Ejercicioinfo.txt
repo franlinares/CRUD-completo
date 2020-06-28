@@ -1,0 +1,19 @@
+Para abrir el general server este comando en la consola ( express --view=ejs )
+
+Para instalar a mano el nodemon (--save-dev nodemon)
+
+Para instalar la base de datos Mysql (npm install mysql)
+
+-----------------------------
+
+  CRUD COMPLETO
+              CREATE, READ,UPDATE,DELETE
+              DATABASE:PHONES
+              TABLA:USER - NAME, LAST_NAME, IDPHONE
+              TABLA:PHONE - IDPHONE, MODEL, COLOR
+              VISTA USER.EJS -> USUARIO SUS DATOS
+              VISTA USERPROFILE -> MUESTRE Y EDITE LOS DATOS DE USUARIO Y PHONE
+              BOOSTRAP, RESPONSIVE
+
+
+

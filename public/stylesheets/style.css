@@ -1,0 +1,86 @@
+
+*, :after, :before {
+	box-sizing: border-box;
+}
+
+body, html {
+	margin: 0px;
+  padding: 0px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}	
+
+/* Foto */
+
+.index{
+  background: url(https://i.blogs.es/7686df/mi-mix/840_560.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  width: auto;
+}
+
+/* intro h1 y boton */
+
+.intro{
+  height: 100vh;
+}
+
+a {
+  color: #00B7FF;
+}
+
+/* Tabla*/
+
+.table{
+  justify-content: center;
+  align-items: center;
+}
+
+/* Header nuevos clientes */
+
+.titulo1{
+  margin-bottom: 30px;
+  padding-top: 100px;
+  
+}
+
+/* Header listado clientes */
+
+.titulo2{
+  margin-bottom: 30px;
+  padding-top: 100px;
+  
+}
+
+/* Nuevos clientes bloque y formulario*/
+
+.bloque1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  
+}
+
+hr{
+  border: 1px solid goldenrod;
+ 
+  border-radius: 30px;
+  opacity: 0.3;
+}
+
+.formulario input {
+  width: 100%;
+}
+
+
+/* Jumbotron  */
+
+.jumbotron{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  
+}
